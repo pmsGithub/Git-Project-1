@@ -12,12 +12,13 @@ struct ContentView: View {
     @State private var isPresented = false
     var body: some View {
         NavigationView {
-            NavigationLink(destination: ModalView()) {
-                Text("Go Next")
-            }.foregroundColor(.green)
-            .navigationBarTitle("Xcode and Git")
+            VStack {
+                NavigationLink(destination: ModalView()) {
+                    Text("Go Next")
+                }.foregroundColor(.purple)
+                    .navigationBarTitle("Xcode and Git")
+            }
         }
-        
     }
 }
 
