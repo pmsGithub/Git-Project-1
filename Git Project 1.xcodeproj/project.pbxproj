@@ -14,6 +14,7 @@
 		C6C3744224AF57E200F8E4C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C3744124AF57E200F8E4C2 /* Preview Assets.xcassets */; };
 		C6C3744524AF57E200F8E4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C3744324AF57E200F8E4C2 /* LaunchScreen.storyboard */; };
 		C6C3744D24AF5A6B00F8E4C2 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3744C24AF5A6B00F8E4C2 /* ModalView.swift */; };
+		C6C3744F24AFBFA900F8E4C2 /* OtherModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3744E24AFBFA900F8E4C2 /* OtherModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C6C3744424AF57E200F8E4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6C3744624AF57E200F8E4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6C3744C24AF5A6B00F8E4C2 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		C6C3744E24AFBFA900F8E4C2 /* OtherModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C6C3743A24AF57DF00F8E4C2 /* SceneDelegate.swift */,
 				C6C3743C24AF57DF00F8E4C2 /* ContentView.swift */,
 				C6C3744C24AF5A6B00F8E4C2 /* ModalView.swift */,
+				C6C3744E24AFBFA900F8E4C2 /* OtherModalView.swift */,
 				C6C3743E24AF57E200F8E4C2 /* Assets.xcassets */,
 				C6C3744324AF57E200F8E4C2 /* LaunchScreen.storyboard */,
 				C6C3744624AF57E200F8E4C2 /* Info.plist */,
@@ -153,6 +156,7 @@
 				C6C3743B24AF57DF00F8E4C2 /* SceneDelegate.swift in Sources */,
 				C6C3744D24AF5A6B00F8E4C2 /* ModalView.swift in Sources */,
 				C6C3743D24AF57DF00F8E4C2 /* ContentView.swift in Sources */,
+				C6C3744F24AFBFA900F8E4C2 /* OtherModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

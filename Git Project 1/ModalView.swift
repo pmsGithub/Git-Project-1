@@ -12,6 +12,9 @@ struct ModalView: View {
     var body: some View {
         VStack {
             Text("This is the Second View!")
+            ScrollView {
+                Text("Hello World, you Crazy lady, what have you been doing and where have you been?")
+            }
         }.navigationBarTitle("Second View", displayMode: .inline)
     }
 }
